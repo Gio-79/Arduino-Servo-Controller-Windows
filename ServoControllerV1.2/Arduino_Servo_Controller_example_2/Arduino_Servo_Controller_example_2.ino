@@ -17,7 +17,7 @@ int savedAngles[5];
 void setup() {
   servo_1.attach(servoPins[0]);servo_2.attach(servoPins[1]);servo_3.attach(servoPins[2]);servo_4.attach(servoPins[3]);servo_5.attach(servoPins[4]);
   Serial.begin(serialBound);
-  Serial.println("Servo Controller Arduino Sketch 1.0v");
+  Serial.println("Servo Controller Arduino Sketch 1.2v");
   Serial.println("Ready");
 }
 
