@@ -12,7 +12,7 @@ int savedAngles[5];
 
 void setup() {
   Serial.begin(serialBound);
-  Serial.println("Servo Controller Arduino Sketch 1.0v");
+  Serial.println("Servo Controller Arduino Sketch 1.2v");
   Serial.println("Ready");
 }
 
