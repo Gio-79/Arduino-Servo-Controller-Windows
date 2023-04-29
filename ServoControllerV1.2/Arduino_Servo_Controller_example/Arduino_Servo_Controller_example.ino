@@ -41,8 +41,7 @@ void ServoControllerMain(){
         usedServo.write(savedAngles[i]);
         delay(1000);
        }
-         Serial.read();
-         Serial.flush();    
+       Serial.flush();    
     }
   }
 }
