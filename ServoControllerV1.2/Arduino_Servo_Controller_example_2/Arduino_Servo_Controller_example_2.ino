@@ -40,16 +40,11 @@ void ServoControllerMain(){
        dataIndex = 0;
 
        Serial.println("setting servos...");
-        servo_1.write(savedAngles[0]);
-        delay(1000);
-        servo_2.write(savedAngles[1]);
-        delay(1000);
-        servo_3.write(savedAngles[2]);
-        delay(1000);
-        servo_4.write(savedAngles[3]);
-        delay(1000);
-        servo_5.write(savedAngles[4]);
-        delay(1000);
+       servo_1.write(savedAngles[0]);
+       servo_2.write(savedAngles[1]);
+       servo_3.write(savedAngles[2]);
+       servo_4.write(savedAngles[3]);
+       servo_5.write(savedAngles[4]);;
        Serial.flush();    
     }
   }
